@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Core", "NLayer.Core\NLayer.Core.csproj", "{1042A8C6-D802-4786-8BC3-53AFA218690C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Core", "NLayer.Core\NLayer.Core.csproj", "{1042A8C6-D802-4786-8BC3-53AFA218690C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerRepository", "NLayerRepository\NLayerRepository.csproj", "{4712824B-0818-49A3-A9A0-BBFE43E174F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Repository", "NLayerRepository\NLayer.Repository.csproj", "{4712824B-0818-49A3-A9A0-BBFE43E174F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerService", "NLayerService\NLayerService.csproj", "{1380CD7F-B793-4852-B4DD-4D19D240FA2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Service", "NLayerService\NLayer.Service.csproj", "{1380CD7F-B793-4852-B4DD-4D19D240FA2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{01FE1E3C-0B1A-4C62-915F-0C272CA34308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{01FE1E3C-0B1A-4C62-915F-0C272CA34308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{7FF10F79-DF7D-419D-BE06-8754B828A848}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{7FF10F79-DF7D-419D-BE06-8754B828A848}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Caching", "NLayer.Caching\NLayer.Caching.csproj", "{D72F5F24-A73D-48B0-B7FB-5C1CCBAD3663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Caching", "NLayer.Caching\NLayer.Caching.csproj", "{D72F5F24-A73D-48B0-B7FB-5C1CCBAD3663}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
