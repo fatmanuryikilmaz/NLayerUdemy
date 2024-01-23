@@ -3,11 +3,6 @@ using NLayer.Core.Models;
 using NLayer.Core.Repositories;
 using NLayerRepository;
 using NLayerRepository.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NLayer.Repository.Repositories
 {
@@ -20,7 +15,7 @@ namespace NLayer.Repository.Repositories
         public async Task<List<Product>> GetProductsWithCategory()
         {
             //eager loading
-            return await _context.Products.Include(x=>x.Category).ToListAsync();
+            return await _context.Products.Include(x => x.Category).ToListAsync();
         }
     }
 }

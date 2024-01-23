@@ -9,9 +9,8 @@ using NLayerService.Mapping;
 using NLayerService.Services;
 using System.Reflection;
 using Module = Autofac.Module;
-//using Autofac;
 
-namespace NLayer.API.Modules
+namespace NLayer.Web.Modules
 {
     public class RepoServiceModule : Module
     {
@@ -32,7 +31,6 @@ namespace NLayer.API.Modules
             builder.RegisterAssemblyTypes(apiAssembly, repoAssembly, serviceAssembly).Where(x => x.Name.EndsWith("Repository")).AsImplementedInterfaces().InstancePerLifetimeScope();
 
             builder.RegisterAssemblyTypes(apiAssembly, repoAssembly, serviceAssembly).Where(x => x.Name.EndsWith("Service")).AsImplementedInterfaces().InstancePerLifetimeScope();
-
 
 
 
